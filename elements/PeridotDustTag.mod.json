@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:PeridotDust"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "dusts/peridot",
+    "namespace": "forge"
+  }
+}

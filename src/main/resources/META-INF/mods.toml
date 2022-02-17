@@ -1,0 +1,50 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="Creative Commons Attribution-ShareAlike 4.0"
+
+[[mods]]
+modId="metaverse"
+version="1.0.0"
+displayName="Metaverse Contents"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+authors="KOR_APUcard, MCreator"
+description='''
+Let's go to the Metaverse!
+'''
+
+[[dependencies.metaverse]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+[[dependencies.metaverse]]
+    modId="mekanism"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.metaverse]]
+    modId="just_enough_items"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.metaverse]]
+    modId="mekanism"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.metaverse]]
+    modId="banneradditions"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

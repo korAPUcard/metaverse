@@ -1,0 +1,102 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.missing_paste.idle": {
+      "loop": true,
+      "animation_length": 0.20833,
+      "bones": {
+        "missing_paste": {
+          "rotation": {
+            "0.0": {
+              "vector": [
+                0,
+                0,
+                0
+              ]
+            },
+            "0.2083": {
+              "vector": [
+                0,
+                0,
+                0
+              ]
+            }
+          }
+        }
+      }
+    },
+    "animation.missing_paste.throw": {
+      "loop": true,
+      "animation_length": 1,
+      "bones": {
+        "missing_paste": {
+          "rotation": {
+            "0.0": {
+              "vector": [
+                0,
+                0,
+                0
+              ]
+            },
+            "1.0": {
+              "vector": [
+                -360,
+                0,
+                0
+              ]
+            }
+          }
+        }
+      }
+    },
+    "animation.missing_paste.impact": {
+      "animation_length": 0.20833,
+      "bones": {
+        "missing_paste": {
+          "rotation": {
+            "0.0": {
+              "vector": [
+                0,
+                0,
+                0
+              ]
+            },
+            "0.2083": {
+              "vector": [
+                0,
+                0,
+                0
+              ]
+            }
+          }
+        }
+      }
+    },
+    "animation.missing_paste.float": {
+      "loop": true,
+      "animation_length": 1,
+      "bones": {
+        "missing_paste": {
+          "rotation": {
+            "0.0": {
+              "vector": [
+                0,
+                0,
+                0
+              ]
+            },
+            "1.0": {
+              "vector": [
+                360,
+                360,
+                "Math.Random()"
+              ],
+              "easing": "linear"
+            }
+          }
+        }
+      }
+    }
+  },
+  "geckolib_format_version": 2
+}

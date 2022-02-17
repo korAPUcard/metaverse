@@ -1,0 +1,56 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "missing_paste",
+    "customModelName": "Normal",
+    "name": "」dMissing Paste",
+    "specialInfo": [
+      "」cALERT: WORK IN PROGRESS, THERE MAY BE BUGS",
+      "」cERROR 404: NOT FOUND!",
+      "」cALERT: UNEXPE」kCTED ER」r」cROR DETE」kCTED」r」c! DATA COR」kRUP」r」cTED, DO NOT 」kUSE」r」c THIS!"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:MetaverseContents"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 0,
+    "actionSound": {
+      "value": ""
+    },
+    "hasGlow": true,
+    "animation": "block",
+    "enableMeleeDamage": true,
+    "damageVsEntity": 1024.0,
+    "onRangedItemUsed": {
+      "name": "MissingPasteUse"
+    },
+    "onEntitySwing": {
+      "name": "MissingPasteThrow"
+    },
+    "bulletPower": 5.0,
+    "bulletDamage": 1024.0,
+    "bulletKnockback": 100,
+    "bulletParticles": true,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:MissingPaste"
+    },
+    "bulletModel": "Modelmissing_paste",
+    "customBulletModelTexture": "missing_paste_entity.png",
+    "onBulletHitsBlock": {
+      "name": "MissingPasteProjectileHitsEverything"
+    },
+    "onBulletHitsPlayer": {
+      "name": "MissingPasteProjectileHitsEverything"
+    },
+    "onBulletHitsEntity": {
+      "name": "MissingPasteProjectileHitsEverything"
+    }
+  }
+}

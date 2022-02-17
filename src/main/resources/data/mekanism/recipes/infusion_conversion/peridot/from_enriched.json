@@ -1,0 +1,11 @@
+{
+	"type":"mekanism:infusion_conversion",
+	"input":{
+		"ingredient":{
+			"tag":"metaverse:peridot_enriched"
+		}
+	},
+	"output":{
+		"infuse_type":"metaverse:peridot_gem","amount":80
+	}
+}

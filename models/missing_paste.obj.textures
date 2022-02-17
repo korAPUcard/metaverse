@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "m_0": "missing_paste_entity"
+      },
+      "name": "default"
+    }
+  }
+}

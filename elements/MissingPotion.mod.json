@@ -1,0 +1,21 @@
+{
+  "_fv": 24,
+  "_type": "potion",
+  "definition": {
+    "potionName": "」dPotion of Missing Effect",
+    "splashName": "」dSplash Potion of Missing Effect",
+    "lingeringName": "」dLingering Potion of Missing Effect",
+    "arrowName": "」dArrow of Missing Effect",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:MissingEffect"
+        },
+        "duration": 72000,
+        "amplifier": 0,
+        "ambient": true,
+        "showParticles": false
+      }
+    ]
+  }
+}

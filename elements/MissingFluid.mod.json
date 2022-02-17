@@ -1,0 +1,49 @@
+{
+  "_fv": 24,
+  "_type": "fluid",
+  "definition": {
+    "name": "¡×dMissing Fluid",
+    "bucketName": "Missing Fluid Bucket",
+    "textureStill": "missing_texture",
+    "textureFlowing": "missing_texture",
+    "tintType": "No tint",
+    "canMultiply": false,
+    "flowRate": 5,
+    "levelDecrease": 1,
+    "slopeFindDistance": 4,
+    "spawnParticles": true,
+    "dripParticle": {
+      "value": "REVERSE_PORTAL"
+    },
+    "flowStrength": 1.0,
+    "luminosity": 0,
+    "density": 1000,
+    "viscosity": 1000,
+    "isGas": false,
+    "temperature": 300,
+    "type": "LAVA",
+    "generateBucket": true,
+    "textureBucket": "missing_fluid_bucket",
+    "creativeTab": {
+      "value": "CUSTOM:MetaverseContents"
+    },
+    "emptySound": {
+      "value": "CUSTOM:missing_paste_impact"
+    },
+    "rarity": "EPIC",
+    "specialInfo": [
+      "¡×c¡×kERR_CODE_RED:DESCRIPTION_DATA_EXPUNGED"
+    ],
+    "resistance": 100.0,
+    "luminance": 0,
+    "lightOpacity": 0,
+    "emissiveRendering": true,
+    "tickRate": 10,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "DEFAULT",
+    "frequencyOnChunks": 5,
+    "spawnWorldTypes": [],
+    "restrictionBiomes": []
+  }
+}

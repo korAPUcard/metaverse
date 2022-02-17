@@ -1,0 +1,26 @@
+{
+  "_fv": 24,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "¡×d¡×kMissing Effect¡×r",
+    "icon": "missing_effect.png",
+    "color": {
+      "value": -65281,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "MissingEffectStarted"
+    },
+    "onActiveTick": {
+      "name": "MissingEffectOnEffectActiveTick"
+    },
+    "onExpired": {
+      "name": "MissingEffectExpired"
+    }
+  }
+}

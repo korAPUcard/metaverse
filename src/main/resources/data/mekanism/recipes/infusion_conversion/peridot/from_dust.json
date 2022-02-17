@@ -1,0 +1,11 @@
+{
+	"type":"mekanism:infusion_conversion",
+	"input":{
+		"ingredient":{
+			"tag":"forge:dusts/peridot"
+		}
+	},
+	"output":{
+		"infuse_type":"metaverse:peridot_gem","amount":10
+	}
+}

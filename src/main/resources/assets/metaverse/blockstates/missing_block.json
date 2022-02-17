@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "metaverse:block/missing_block"
+    }
+  }
+}

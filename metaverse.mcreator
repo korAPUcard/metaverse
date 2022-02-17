@@ -1,0 +1,594 @@
+{
+  "mod_elements": [
+    {
+      "name": "MetaverseContents",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metaverse_contents"
+    },
+    {
+      "name": "MissingBlock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "missing_block"
+    },
+    {
+      "name": "MissingPaste",
+      "type": "rangeditem",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "missing_paste"
+    },
+    {
+      "name": "MissingEffect",
+      "type": "potioneffect",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "missing_effect"
+    },
+    {
+      "name": "CorruptedDimension",
+      "type": "dimension",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_dimension",
+      "metadata": {
+        "ep": false
+      }
+    },
+    {
+      "name": "MissingPasteUse",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "missing_paste_use",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MissingFluid",
+      "type": "fluid",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "missing_fluid",
+      "metadata": {
+        "gb": true
+      }
+    },
+    {
+      "name": "MissingPasteProjectileHitsEverything",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "missing_paste_projectile_hits_everything",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MissingEffectStarted",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "missing_effect_started",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MissingEffectOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "missing_effect_on_effect_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MissingEffectExpired",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "missing_effect_expired",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MissingItem",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "missing_item"
+    },
+    {
+      "name": "CorruptedDimensionWhenEntered",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_dimension_when_entered",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MissingPasteThrow",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "missing_paste_throw",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CorruptedDimensionWhenLeaved",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_dimension_when_leaved",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MissingPotion",
+      "type": "potion",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "missing_potion"
+    },
+    {
+      "name": "PeridotOre",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "peridot_ore"
+    },
+    {
+      "name": "PeridotGem",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "peridot_gem"
+    },
+    {
+      "name": "PeridotOreBasalt",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "peridot_ore_basalt"
+    },
+    {
+      "name": "PeridotBlock",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot_block"
+    },
+    {
+      "name": "PeridotOreSmelting",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot_ore_smelting"
+    },
+    {
+      "name": "PeridotOreBasaltSmelting",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot_ore_basalt_smelting"
+    },
+    {
+      "name": "PeridotBlockCrafting",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot_block_crafting"
+    },
+    {
+      "name": "PeridotGemCrafting",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot_gem_crafting"
+    },
+    {
+      "name": "PeridotOreTag",
+      "type": "tag",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot_ore_tag"
+    },
+    {
+      "name": "PeridotGemTag",
+      "type": "tag",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot_gem_tag"
+    },
+    {
+      "name": "PeridotBlockTag",
+      "type": "tag",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot_block_tag"
+    },
+    {
+      "name": "MetaverseOresForgeTag",
+      "type": "tag",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metaverse_ores_forge_tag"
+    },
+    {
+      "name": "PeridotDust",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot_dust"
+    },
+    {
+      "name": "PeridotEnriched",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "peridot_enriched"
+    },
+    {
+      "name": "PeridotDustTag",
+      "type": "tag",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot_dust_tag"
+    },
+    {
+      "name": "PeridotInfuseTypes",
+      "type": "tag",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot_infuse_types"
+    },
+    {
+      "name": "PeridotGear",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot_gear"
+    },
+    {
+      "name": "BannerPatternGear",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "banner_pattern_gear"
+    },
+    {
+      "name": "PeridotEnergyCrystal",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot_energy_crystal"
+    },
+    {
+      "name": "BannerPatternGearCrafting",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banner_pattern_gear_crafting"
+    },
+    {
+      "name": "PeridotGearTag",
+      "type": "tag",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot_gear_tag"
+    },
+    {
+      "name": "MetaverseGearsForge",
+      "type": "tag",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metaverse_gears_forge"
+    },
+    {
+      "name": "MissingPotionBrewing",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "missing_potion_brewing"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "disableRemoveEffect",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "targetEntity",
+      "type": "string",
+      "scope": "world",
+      "value": "entity instanceof"
+    },
+    {
+      "name": "lostMilkBuckets",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    },
+    {
+      "name": "targetEntityPlayer",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "PlayerEntity"
+    },
+    {
+      "name": "lostMilkBucketStack",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "missing_paste_squish",
+      "files": [
+        "missing_paste_squish"
+      ],
+      "category": "master",
+      "subtitle": "Missing Paste Squished"
+    },
+    {
+      "name": "missing_paste_impact",
+      "files": [
+        "missing_paste_impact"
+      ],
+      "category": "master",
+      "subtitle": "Missing Paste Impacted"
+    },
+    {
+      "name": "missing_paste_corrupt",
+      "files": [
+        "missing_paste_corrupt"
+      ],
+      "category": "master",
+      "subtitle": "§kMissing Paste Corruptions"
+    },
+    {
+      "name": "data_decorruption",
+      "files": [
+        "data_decorruption"
+      ],
+      "category": "master",
+      "subtitle": "Corrupted Data Restored"
+    }
+  ],
+  "language_map": {
+    "ko_kr": {
+      "subtitles.missing_paste_corrupt": "§kMissing Paste 손상화",
+      "subtitles.data_decorruption": "손상된 데이터 복구됨",
+      "item.metaverse.missing_paste": "§d유실 반죽",
+      "item.metaverse.corrupted_dimension": "손상된 차원 접근 카드",
+      "block.metaverse.peridot_ore": "감람석 광석",
+      "item.minecraft.lingering_potion.effect.missing_potion": "§d잔류형 유실 효과 물약",
+      "block.metaverse.peridot_block": "페리도트 블록",
+      "subtitles.missing_paste_squish": "Missing Paste 찌그러짐",
+      "itemGroup.tabmetaverse_contents": "메타버스 콘텐츠",
+      "block.metaverse.missing_block": "§d유실된 블록",
+      "block.metaverse.missing_fluid": "§d유실된 유체",
+      "item.metaverse.peridot_dust": "페리도트 가루",
+      "subtitles.missing_paste_impact": "Missing Paste 충돌",
+      "item.metaverse.banner_pattern_gear": "현수막 무늬",
+      "item.minecraft.potion.effect.missing_potion": "§d유실 효과 물약",
+      "item.metaverse.missing_fluid_bucket": "유실된 유체 양동이",
+      "item.metaverse.peridot_energy_crystal": "감람석 에너지 결정",
+      "fluid.metaverse.missing_fluid": "§d유실된 유체",
+      "item.metaverse.missing_item": "§d유실된 아이템",
+      "item.metaverse.peridot_gem": "페리도트",
+      "item.metaverse.peridot_enriched": "농축된 페리도트",
+      "effect.missing_effect": "§d§k유실 효과§r",
+      "item.minecraft.tipped_arrow.effect.missing_potion": "§d유실 효과 화살",
+      "block.metaverse.peridot_ore_basalt": "현무암 감람석 광석",
+      "item.metaverse.peridot_gear": "페리도트 톱니바퀴",
+      "item.minecraft.splash_potion.effect.missing_potion": "§d투척용 유실 효과 물약",
+      "block.metaverse.peridot_ore.tooltip.line1": "§f감람석은 마그네슘-철질의 규산염 광물로 마그네슘과 철의 비가 두 내성분인",
+      "block.metaverse.peridot_ore.tooltip.line0": "§bSHIFT§f 를 길게 눌러 설명을 봅니다.",
+      "block.metaverse.peridot_ore.tooltip.line3": "§f크리솔라이트(chrysolite)라고 불리기도 하며 보석 수준의 품질을 가질 때는 페리도트라고 한다.",
+      "block.metaverse.peridot_ore.tooltip.line2": "§f포스터라이트(마그네슘 내성분)와 파얄라이트(철 내성분) 사이에서 변화하는 고용체이다."
+    },
+    "en_us": {
+      "subtitles.missing_paste_corrupt": "§kMissing Paste Corruptions",
+      "subtitles.data_decorruption": "Corrupted Data Restored",
+      "item.metaverse.missing_paste": "§dMissing Paste",
+      "item.metaverse.corrupted_dimension": "Corrupted Dimension Access Card",
+      "block.metaverse.peridot_ore": "Olivine Ore",
+      "item.minecraft.lingering_potion.effect.missing_potion": "§dLingering Potion of Missing Effect",
+      "block.metaverse.peridot_block": "Block of Peridot",
+      "subtitles.missing_paste_squish": "Missing Paste Squished",
+      "itemGroup.tabmetaverse_contents": "Metaverse Contents",
+      "block.metaverse.missing_block": "§dMissing Block",
+      "block.metaverse.missing_fluid": "§dMissing Fluid",
+      "item.metaverse.peridot_dust": "Peridot Dust",
+      "subtitles.missing_paste_impact": "Missing Paste Impacted",
+      "item.metaverse.banner_pattern_gear": "Banner Pattern",
+      "item.minecraft.potion.effect.missing_potion": "§dPotion of Missing Effect",
+      "item.metaverse.missing_fluid_bucket": "Missing Fluid Bucket",
+      "item.metaverse.peridot_energy_crystal": "§aPeridot Energy Crystal",
+      "fluid.metaverse.missing_fluid": "§dMissing Fluid",
+      "item.metaverse.missing_item": "§dMissing Item",
+      "item.metaverse.peridot_gem": "Peridot",
+      "item.metaverse.peridot_enriched": "Enriched Peridot",
+      "effect.missing_effect": "§d§kMissing Effect§r",
+      "item.minecraft.tipped_arrow.effect.missing_potion": "§dArrow of Missing Effect",
+      "block.metaverse.peridot_ore_basalt": "Basalt Olivine Ore",
+      "item.metaverse.peridot_gear": "Peridot Gear",
+      "item.minecraft.splash_potion.effect.missing_potion": "§dSplash Potion of Missing Effect",
+      "block.metaverse.peridot_ore.tooltip.line1": "§fOlivine is a magnesium-iron silicate mineral, a solid solution in which the ratio of magnesium to iron changes between",
+      "block.metaverse.peridot_ore.tooltip.line0": "§7Hold §bSHIFT§7 for a description.",
+      "block.metaverse.peridot_ore.tooltip.line3": "§fIt is also called chrysolite, and when it has gem-level quality, it is called peridot.",
+      "block.metaverse.peridot_ore.tooltip.line2": "§fforsterite (magnesium-resistant component) and fayalite (iron-resistant component)."
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "metaverse",
+    "modName": "Metaverse Contents",
+    "version": "1.0.0",
+    "description": "Let\u0027s go to the Metaverse!",
+    "author": "KOR_APUcard, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Creative Commons Attribution-ShareAlike 4.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "metaverse_logo",
+    "requiredMods": [
+      "mekanism"
+    ],
+    "dependencies": [
+      "mekanism",
+      "banneradditions"
+    ],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "just_enough_items"
+    ],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.apucsw.metaverse",
+    "lockBaseModFiles": true
+  },
+  "mcreatorVersion": 202100354000
+}

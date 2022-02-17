@@ -1,0 +1,42 @@
+{
+  "missing_paste_squish": {
+    "category": "master",
+    "subtitle": "subtitles.missing_paste_squish",
+    "sounds": [
+      {
+        "name": "metaverse:missing_paste_squish",
+        "stream": false
+      }
+    ]
+  },
+  "missing_paste_impact": {
+    "category": "master",
+    "subtitle": "subtitles.missing_paste_impact",
+    "sounds": [
+      {
+        "name": "metaverse:missing_paste_impact",
+        "stream": false
+      }
+    ]
+  },
+  "missing_paste_corrupt": {
+    "category": "master",
+    "subtitle": "subtitles.missing_paste_corrupt",
+    "sounds": [
+      {
+        "name": "metaverse:missing_paste_corrupt",
+        "stream": false
+      }
+    ]
+  },
+  "data_decorruption": {
+    "category": "master",
+    "subtitle": "subtitles.data_decorruption",
+    "sounds": [
+      {
+        "name": "metaverse:data_decorruption",
+        "stream": false
+      }
+    ]
+  }
+}

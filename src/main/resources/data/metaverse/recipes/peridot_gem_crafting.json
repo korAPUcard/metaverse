@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "metaverse:peridot_block"
+    }
+  },
+  "result": {
+    "item": "metaverse:peridot_gem",
+    "count": 9
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:PeridotGear"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "gears",
+    "namespace": "forge"
+  }
+}

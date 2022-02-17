@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "metaverse:blocks/peridot_ore_basalt_top",
+    "up": "metaverse:blocks/peridot_ore_basalt_top",
+    "north": "metaverse:blocks/peridot_ore_basalt_side",
+    "east": "metaverse:blocks/peridot_ore_basalt_side",
+    "south": "metaverse:blocks/peridot_ore_basalt_side",
+    "west": "metaverse:blocks/peridot_ore_basalt_side",
+    "particle": "metaverse:blocks/peridot_ore_basalt_top"
+  }
+}

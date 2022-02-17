@@ -1,0 +1,38 @@
+{
+  "_fv": 24,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "peridot",
+    "customModelName": "Normal",
+    "name": "Peridot",
+    "rarity": "COMMON",
+    "creativeTab": {
+      "value": "CUSTOM:MetaverseContents"
+    },
+    "stackSize": 64,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "¡×bMouse hover to see more detail",
+      "¡×fPeridot is an olivine that is valuable as a gemstone.",
+      "¡×fThe beautiful peridot green color is reminiscent of 'him'."
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "hasDispenseBehavior": false
+  }
+}

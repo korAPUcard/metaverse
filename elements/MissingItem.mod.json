@@ -1,0 +1,37 @@
+{
+  "_fv": 24,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "missing_paste",
+    "customModelName": "Normal",
+    "name": "」dMissing Item",
+    "rarity": "EPIC",
+    "creativeTab": {
+      "value": "CUSTOM:MetaverseContents"
+    },
+    "stackSize": 64,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 0.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "」cERROR 404: NOT FOUND!",
+      "」c」kERR_CODE_RED:DESCRIPTION_DATA_EXPUNGED"
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "hasDispenseBehavior": false
+  }
+}
